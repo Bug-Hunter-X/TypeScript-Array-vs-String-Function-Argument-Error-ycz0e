@@ -1,0 +1,3 @@
+# TypeScript Array vs String Function Argument
+
+This example demonstrates a common TypeScript error that occurs when an array is passed as an argument to a function expecting a string. The code includes a function `greeter` that takes a string argument and returns a greeting.  However, when an array is passed to `greeter`, a type error is raised.  The solution shows how to correctly handle this situation using array types and potentially type guards.
